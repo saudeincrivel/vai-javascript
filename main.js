@@ -10,14 +10,14 @@ db.serialize(() => {
 
 function generateRandomData() {
   return {
-    name: `Name_${Math.floor(Math.random() * 10000)}`,
-    value: Math.floor(Math.random() * 10000),
+    name: `Name`,
+    value: "value",
   };
 }
 
 let lista = [];
 function pregen() {
-  const MAX_ELEMENTS = 100;
+  const MAX_ELEMENTS = 10000;
   for (let i = 0; i < MAX_ELEMENTS; i++) {
     lista.push(generateRandomData());
   }
