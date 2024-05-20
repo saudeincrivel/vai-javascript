@@ -1,12 +1,16 @@
 {
   "name": "vai-javascript",
   "version": "1.0.0",
-  "description": "Javascript é a melhor linguagem de back-end do mundo !!!!",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "undici": "^6.17.0"
+  }
 }
